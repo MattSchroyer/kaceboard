@@ -1,0 +1,75 @@
+body {
+		background-color: #F5F5F5;
+		font-family: 'Roboto';
+}
+
+#menuBar {
+	background-color: #FFFFFF;
+	font-family: 'Roboto';
+	font-size: 18px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 75px;
+	
+}
+
+#menuBar select{
+	/*
+	position: absolute;
+	left: 20px;
+	top: 30%;
+	*/
+	font-family: 'Roboto';
+	font-size: 18px;
+	border: 0px;
+	/*	border: 1px solid #ccc;	*/
+}
+
+.ticketTable {
+	font-family: 'Roboto';
+	position: absolute;
+    top: 425px;
+	width: 95%;
+}
+
+.ticketTable th{
+	text-align: left;
+}
+
+#numOpenTitle {
+	font-family: 'Roboto';
+	font-size: 18px;
+	position: absolute;
+	top: 100px;
+	left: 20px;
+}
+
+#numOpen {
+	color: red;
+	font-size: 280px;
+	font-family: 'Roboto';
+	position: absolute;
+	top: 100px;
+	left: 20px;
+}
+
+#conReportByClosed {
+	font-family: 'Robto';
+	width: 75%;
+	height: 300px;
+	margin: 0 auto;
+	position: absolute;
+    top: 100px;
+	right: 60px;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(roboto.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
